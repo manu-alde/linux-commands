@@ -63,7 +63,7 @@ check_input_available()
 blacklistWork()
 {
     declare -a pids
-    echo "      date      |       pid        |        process        |      user"
+    echo "     date    |     pid     |     process     |      user"
     while true;do
         for process in $blacklist;do
             if pgrep "$process" >/dev/null
@@ -72,7 +72,7 @@ blacklistWork()
                 for pid in $pids;do
                     user=$(ps -o user= -p "$pid")
                     dateTime=$(date '+%F_%T')
-                    echo "$dateTime --- $pid --- $process --- $user" 
+                    echo "$dateTime $pid --- $process --- $user" 
                     kill -15 "$pid"
                 done
             fi
