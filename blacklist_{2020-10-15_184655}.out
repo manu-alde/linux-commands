@@ -1,0 +1,5 @@
+     date    |     pid     |     process     |      user
+2020-10-15_18:47:05 --- 2119 --- reaper --- lubuntu
+2020-10-15_18:47:11 --- 2134 --- firefox --- lubuntu
+2020-10-15_18:47:32 --- 2184 --- firefox --- lubuntu
+2020-10-15_18:47:42 --- 2239 --- gtklick --- lubuntu
