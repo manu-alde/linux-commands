@@ -119,3 +119,13 @@ blacklist=$(awk -v RS='^$' '{print($0)}' "$blacklist_path")
 (trap '' SIGHUP SIGKILL SIGINT
     blacklistWork
 ) </dev/null 2>&1 1>"$output_path"&
+
+# Script: Ejercicio04.sh
+
+# Actividad Practica de Laboratorio Nro. 1 - Ejercicio 4
+# Grupo 06
+# Alderete Jabif Manuel Tomas - 39.978.538
+# Baini Hernan Javier - 32.883.285
+# Diaz Matias Alejandro - 39.505.841
+# Gonzalez Jimena Belen - 42.283.722
+# Segunda entrega
